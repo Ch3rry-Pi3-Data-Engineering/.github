@@ -1,4 +1,4 @@
-# <span style="color:#2f81f7">**Ch3rry Pi3 | Data Engineering | End-2-End Project**</span>
+# <span style="color:#2f81f7">**`Ch3rry Pi3 | Data Engineering | End-2-End Project`**</span>
 
 Terraform-first, Azure-native data engineering projects designed to be **repeatable**, **auditable**, and **production-minded**.
 
