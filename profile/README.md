@@ -178,7 +178,7 @@ graph LR
 
 
 
-## **Common engineering themes across repos**
+## **`Common engineering themes across repos`**
 
 ### **Terraform-first platform design**
 
@@ -202,7 +202,7 @@ Infrastructure is treated as a reusable platform blueprint:
 
 
 
-## Notes on Azure-only scope (current)
+## **`Notes on Azure-only scope (current)`**
 
 At present, projects in this organisation are implemented using Microsoft Azure services. Over time, this may expand to include cross-cloud patterns, but the focus here is currently Azure-native data engineering.
 
