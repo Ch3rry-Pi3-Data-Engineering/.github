@@ -1,4 +1,4 @@
-# **`Ch3rry Pi3 | Data Engineering | End-2-End Project`**
+# <span style="color:#2f81f7">**`Ch3rry Pi3 | Data Engineering | End-2-End Project`**</span>
 
 Terraform-first, Azure-native data engineering projects designed to be **repeatable**, **auditable**, and **production-minded**.
 
@@ -26,9 +26,7 @@ flowchart LR
     class G gold;
 ```
 
-
-
-## **`What you’ll find in this organisation`**
+## <span style="color:#2f81f7">**`What you’ll find in this organisation`**</span>
 
 ### **Core patterns demonstrated**
 
@@ -54,12 +52,9 @@ flowchart LR
   * Deployment scripts that orchestrate Terraform + post-deploy bootstraps
   * Monitoring and alerting at the platform level (Azure Monitor + Log Analytics)
 
-
-
-## **`Repositories`**
+## <span style="color:#2f81f7">**`Repositories`**</span>
 
 ### 1) **Azure AdventureWorks Data Engineering (IaC)**
-
 
 Terraform-first end-to-end Azure data platform using ADF + Databricks + Synapse over an ADLS Gen2 medallion lake.
 
@@ -112,8 +107,6 @@ flowchart LR
 * Terraform module layout as a “platform blueprint”
 * Post-deploy automation: SQL bootstrap + Synapse script publishing
 * Secure lake access: RBAC + OAuth SP (where used)
-
-
 
 ### 2) **Azure Spotify Data Engineering (IaC)**
 
@@ -176,9 +169,7 @@ graph LR
 * UC automation via Terraform and OAuth M2M for workspace operations
 * Workspace content packaging/import via `.dbc`
 
-
-
-## **`Common engineering themes across repos`**
+## <span style="color:#2f81f7">**`Common engineering themes across repos`**</span>
 
 ### **Terraform-first platform design**
 
@@ -200,15 +191,6 @@ Infrastructure is treated as a reusable platform blueprint:
 * Monitoring and alerting integrated with Azure Monitor / Log Analytics
 * SQL bootstrap steps included as part of deploy flows where analytics layers are present
 
-
-
-## **`Notes on Azure-only scope (current)`**
+## <span style="color:#2f81f7">**`Notes on Azure-only scope (current)`**</span>
 
 At present, projects in this organisation are implemented using Microsoft Azure services. Over time, this may expand to include cross-cloud patterns, but the focus here is currently Azure-native data engineering.
-
-Also: you asked to have repo names like `Ch3rry Pi3 | Data Engineering | End-2-End Project`. I used that as the repo label headers, but if you tell me the **exact repo names** as they appear in GitHub (e.g. `azure-adventureworks-data-engineering-iac`), I can format each section as:
-
-* **Repo display name (portfolio style)**
-  `actual-repo-slug`
-
-…so it looks tidy and clickable on GitHub.
